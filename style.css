@@ -5,19 +5,19 @@
   padding: 5px;
   transition: 0.3s;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .gallery {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (min-width: 1024px) {
   .gallery {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 @media (min-width: 1440px) {
   .gallery {
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(7, 1fr);
   }
 }
 .gallery__link {
