@@ -4,6 +4,8 @@
   gap: 5px;
   padding: 5px;
   transition: 0.3s;
+  background-color: rgba(194, 166, 196, 0.3);
+
 }
 @media (min-width: 500px) {
   .gallery {
